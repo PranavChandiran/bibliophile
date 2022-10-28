@@ -1,0 +1,24 @@
+books with images and one line discription about the book 
+7journal 
+price cart 
+
+## navbar 
+home 
+about us 
+contanct us
+
+
+
+features 
+like button 
+
+
+
+## Home 
+why do we need books 
+what books teach us 
+famouse people about boooks (quotes) 
+famouse people and their favrioute books (12
+
+best book for students 
+
