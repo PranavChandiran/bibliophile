@@ -97,3 +97,72 @@
     background-color: var(--navy-blue);
     border-radius: 16px;
 }
+/* .coverpg{
+    background-image: url(/images/cover.png);
+    height: 79vh;
+    width: 66%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    background-position: 25% 66px 66px;
+    padding: 0 80px;
+} */
+section{
+    padding: 5rem 9%;
+}
+.home{
+    background: url(/images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .row {
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    gap: 1.1rem;
+
+}
+.home .row .content{
+    flex: 1 1 42rem;
+}
+.home .row .books-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 1.9rem;
+}
+.home .row .books-slider a img{
+    height: 18rem;
+}
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+}
+h2{
+    font-size: 1.1rem;
+}
+
+
+.stand{
+    width: 39rem;
+    margin-top: -1.2rem;
+
+}
+.home .row .content h4{
+    color: grey;
+    font-size: .9rem;
+}
+.home .row .content p{
+    color: var(--navy-blue);
+    font-size: 1.1rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+.home .row .content .btn{
+    background-color: var(--dark-blue);
+    border-radius: 16px;
+    padding: 7px;
+    color: #fff;
+}
+.home .row .content .btn:hover{
+    color: black;
+    background-image: var(--navy-blue);
+}
