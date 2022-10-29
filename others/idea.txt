@@ -2,11 +2,6 @@ books with images and one line discription about the book
 7journal 
 price cart 
 
-## navbar 
-home 
-about us 
-contanct us
-
 
 
 features 
