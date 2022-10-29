@@ -79,3 +79,21 @@
 #search-btn{
     display: none;
 }
+.header .header-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    background:var(--dark-blue);
+}
+.header .header-2 .navbar{
+    text-align: center;
+}
+.header .header-2 .navbar a{
+    color: #fff;
+    display: inline-block;
+    padding: 0.7rem;
+    font-size: 0.9em;
+}
+.header .header-2 .navbar a:hover {
+    background-color: var(--navy-blue);
+    border-radius: 16px;
+}
