@@ -215,7 +215,12 @@ h2{
     background: #fff;
     border: .1rem solid var(--black);
 }
+
+
 .featured .featured-slider .box{
+    display: flex;
+    flex-direction: column;
+    
     width: 18rem;
     margin: 2rem 0 ;
     position: relative;
@@ -226,6 +231,8 @@ h2{
 .featured .featured-slider .box:hover{
     border: .1rem solid var(--dark-blue);
 }
+
+
 .featured .featured-slider .box .image{
         padding: 1rem;
         background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
