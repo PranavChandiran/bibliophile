@@ -97,16 +97,7 @@
     background-color: var(--navy-blue);
     border-radius: 16px;
 }
-/* .coverpg{
-    background-image: url(/images/cover.png);
-    height: 79vh;
-    width: 66%;
-    background-repeat: no-repeat;
-    justify-content: center;
-    background-size: cover;
-    background-position: 25% 66px 66px;
-    padding: 0 80px;
-} */
+
 section{
     padding: 5rem 9%;
 }
@@ -137,19 +128,19 @@ section{
     transform: scale(.9);
 }
 h2{
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 }
-
+ .last {
+    font-size: 11px;
+color: navy;
+text-align: end;}   
 
 .stand{
     width: 39rem;
     margin-top: -1.2rem;
 
 }
-/* .home .row .content p{
-    color: grey;
-    font-size: .9rem;
-} */
+
 .home .row .content p{
     color: grey;
     font-size: 1.1rem;
@@ -166,17 +157,7 @@ h2{
     color: black;
     background-image: var(--navy-blue);
 }
-/* .featured img{
-    height: 10rem;
-    width: 10rem; 
-}*/
-/* .btn{
-    background-color: #000080;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 20px;
-} */
+
 .btn{
     margin-top: 1rem;
     display:inline-block;
@@ -248,7 +229,7 @@ h2{
 
 }
 .featured .featured-slider .box .content h3{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--black);
     
 }
@@ -262,4 +243,33 @@ h2{
     font-size: 1rem;
     color: var(--dark-blue);
     text-decoration: line-through;
+}
+
+.about, .contactus{
+    
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.about .about_tag h1 { 
+    font-size: 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about .about_tag p{
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.goldit{
+    color: gold;
+    background-color: grey;
 }
