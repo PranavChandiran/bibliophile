@@ -215,12 +215,12 @@ h2{
     background: #fff;
     border: .1rem solid var(--black);
 }
-
+.featured .wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
 .featured .featured-slider .box{
-    display: flex;
-    flex-direction: column;
-    
     width: 18rem;
     margin: 2rem 0 ;
     position: relative;
